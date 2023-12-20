@@ -28,7 +28,7 @@ const GasPriceChart = () => {
   const fetchGasPrices = async () => {
     try {
       const response = await axios.get(
-        "http://avaxgastracker.replit.app/api/gas-prices"
+        "https://avaxgastracker.replit.app/api/gas-prices"
       );
       const prices = response.data;
 
