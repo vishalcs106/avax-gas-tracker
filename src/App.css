@@ -18,6 +18,13 @@
   }
 }
 
+@media (max-width: 600px) {
+  /* Adjust 600px to the breakpoint you prefer */
+  .chart-container {
+    width: 100%;
+  }
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
